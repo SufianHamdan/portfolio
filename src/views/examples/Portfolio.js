@@ -50,7 +50,7 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 // index page sections
 import Download from "../IndexSections/Download.js";
 
-class Landing extends React.Component {
+class Portfolio extends React.Component {
   state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -869,4 +869,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Portfolio;
